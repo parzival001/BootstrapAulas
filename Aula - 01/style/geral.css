@@ -1,0 +1,21 @@
+/* Salva Variáveis */
+/* --variavel : dados ; */
+/* chamar var = var(--variavel) */
+/* element !important prioriza o código */
+:root{
+    --verdeTolkien: #3f511f; 
+    --dourado: #ffc801;
+}
+
+#page{
+    background-color: var(--verdeTolkien)!important;
+    color: var(--dourado) !important;
+}
+
+#logo{
+    border-radius: 100px;
+}
+
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.589);
+}
